@@ -1,12 +1,11 @@
 "use client";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
-import { Dancing_Script } from "next/font/google"; 
+import { Dancing_Script } from "next/font/google";
 import ElegantShape from "./elegantShape";
-import { WavyBackground } from "./ui/wavy-background";
 import { Button } from "./ui/moving-border";
 
-const dancingScript = Dancing_Script({  
+const dancingScript = Dancing_Script({
   subsets: ["latin"],
   weight: ["400"],
   variable: "--font-dancing-script",
@@ -15,7 +14,7 @@ const dancingScript = Dancing_Script({
 export default function Hero({
   badge = "Tech Samarooh 2026 • Trinity Dwarka",
   title1 = "Redefineing",
-  title2 = "What's Next",
+  title2 = "What'sNext",
 }) {
   const fadeUpVariants = {
     hidden: { opacity: 0, y: 30 },
@@ -86,14 +85,10 @@ export default function Hero({
         />
       </div>
 
-      {/* 🌀 Wavy Background */}
-      <div className="absolute inset-0 flex items-center justify-center opacity-85">
-        <WavyBackground className="w-full max-w-[1400px] mx-auto scale-110 opacity-85 mix-blend-overlay" />
-      </div>
+      
 
       <div className="relative z-10 container mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center">
-          
           {/* 🎖️ Full Circle Moving Border Badge */}
           <motion.div
             custom={0}
@@ -131,7 +126,7 @@ export default function Hero({
               <span
                 className={cn(
                   "bg-clip-text text-transparent bg-gradient-to-r from-[#e99b63] via-[#ffcc8f] to-[#e99b63]/80 font-bold text-4xl sm:text-6xl md:text-8xl lg:text-9xl",
-                  dancingScript.className // <-- Changed to Dancing Script
+                  dancingScript.className
                 )}
               >
                 {title2}
