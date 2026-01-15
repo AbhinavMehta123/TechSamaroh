@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react"; 
 import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
 import { Dancing_Script } from "next/font/google";
@@ -14,6 +14,7 @@ const dancingScript = Dancing_Script({
 
 const Events = ({ id }) => {
   const containerRef = useRef(null);
+  const [activeCard, setActiveCard] = useState(null); 
 
   const { scrollYProgress } = useScroll({
     target: containerRef,
@@ -138,7 +139,7 @@ const Events = ({ id }) => {
             dancingScript.className
           )}
         >
-          Events
+          Clubs
         </motion.h2>
 
         <motion.p
@@ -168,6 +169,7 @@ const Events = ({ id }) => {
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
             custom={index * 0.3}
+            onClick={() => setActiveCard(activeCard === club.id ? null : club.id)} // 👈 added toggle
             className="group relative h-[370px]"
           >
             {/* Glow border */}
@@ -189,9 +191,8 @@ const Events = ({ id }) => {
                 className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-full bg-gradient-to-br ${club.color} opacity-0 blur-[70px] group-hover:opacity-40 transition-all duration-700`}
               />
 
-              {/* Image, Name, Description (Stacked vertically) */}
+              {/* Image, Name, Description */}
               <div className="flex flex-col items-left text-left gap-4 mt-2">
-                {/* Image */}
                 <motion.div
                   whileHover={{ scale: 1.1 }}
                   transition={{ type: "spring", stiffness: 200, damping: 18 }}
@@ -204,12 +205,10 @@ const Events = ({ id }) => {
                   />
                 </motion.div>
 
-                {/* Name */}
                 <h3 className="text-2xl font-bold group-hover:text-white transition-colors">
                   {club.name}
                 </h3>
 
-                {/* Description */}
                 <p className="text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors">
                   {club.desc}
                 </p>
@@ -219,7 +218,12 @@ const Events = ({ id }) => {
               <Link href={club.link}>
                 <motion.button
                   whileTap={{ scale: 0.97 }}
-                  className="cursor-pointer absolute bottom-0 left-0 w-full py-4 bg-[#e99b63] text-black font-bold text-xs tracking-widest translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]"
+                  className={cn(
+                    "cursor-pointer absolute bottom-0 left-0 w-full py-4 bg-[#e99b63] text-black font-bold text-xs tracking-widest transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]",
+                    activeCard === club.id
+                      ? "translate-y-0"
+                      : "translate-y-full md:group-hover:translate-y-0" // 👈 click shows, hover still works
+                  )}
                 >
                   EXPLORE THE COMMUNITY
                 </motion.button>
