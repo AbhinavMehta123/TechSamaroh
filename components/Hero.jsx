@@ -13,7 +13,7 @@ const dancingScript = Dancing_Script({
 
 export default function Hero({
   badge = "Tech Samarooh 2026 • Trinity Dwarka",
-  title1 = "Redefineing",
+  title1 = "Redefining",
   title2 = "What'sNext",
 }) {
   const fadeUpVariants = {
@@ -144,7 +144,7 @@ export default function Hero({
             <p className="text-base sm:text-lg md:text-xl text-white/50 mb-8 leading-relaxed font-light tracking-wide max-w-xl mx-auto px-4">
               Join{" "}
               <span className="text-[#e99b63] font-semibold">
-                Tech Samarooh 2026
+                Tech Samaroh 2026
               </span>{" "}
               — Trinity Dwarka’s annual tech fest celebrating creativity,
               innovation, and the future of technology!
