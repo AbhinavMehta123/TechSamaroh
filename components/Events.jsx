@@ -45,7 +45,7 @@ const Events = ({ id="events" }) => {
       id: 3,
       name: "APEX",
       desc: "Exploring the frontiers of Machine Learning and Big Data. Our members build predictive models and dive deep into neural networks.",
-      img: "/WebAssets/apex.jpg",
+      img: "/WebAssets/WhatsApp Image 2026-01-15 at 2.14.11 PM.jpeg",
       color: "from-purple-600",
       link: "/abc",
     },

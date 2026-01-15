@@ -81,7 +81,7 @@ const Footer = () => {
               alt="logo"
             />
             <span className="text-2xl font-bold tracking-tighter uppercase">
-              Tech Fest<span className="text-[#e99b63]"> 2026</span>
+              Tech Samaroh<span className="text-[#e99b63]"> 2026</span>
             </span>
           </div>
           <p className="text-gray-400 text-sm leading-relaxed mb-6 text-left">
@@ -107,7 +107,7 @@ const Footer = () => {
               <li key={item}>
                 <button
                   onClick={() => handleNavigation(item)}
-                  className="hover:text-[#e99b63] transition-colors flex items-center gap-2"
+                  className="hover:text-[#e99b63] transition-colors flex items-center gap-2 cursor-pointer"
                 >
                   <i className="bx bx-chevron-right text-[#e99b63]"></i> {item}
                 </button>

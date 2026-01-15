@@ -31,7 +31,7 @@ const Clubs = ({ id="clubs" }) => {
       desc: "A community of developers dedicated to mastering algorithms, competitive programming, and open-source contribution.",
       img: "/WebAssets/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
       color: "from-blue-600",
-      link: "/alfa",
+      link: "/clubs/alfa",
     },
     {
       id: 2,
@@ -39,15 +39,15 @@ const Clubs = ({ id="clubs" }) => {
       desc: "Where engineering meets imagination. We design, build, and program autonomous machines to solve real-world problems.",
       img: "/WebAssets/Cyber Knight logo.jpg",
       color: "from-red-600",
-      link: "/apex",
+      link: "/clubs/cyberknight",
     },
     {
       id: 3,
       name: "APEX",
       desc: "Exploring the frontiers of Machine Learning and Big Data. Our members build predictive models and dive deep into neural networks.",
-      img: "/WebAssets/apex.jpg",
+      img: "/WebAssets/WhatsApp Image 2026-01-15 at 2.14.11 PM.jpeg",
       color: "from-purple-600",
-      link: "/abc",
+      link: "/clubs/apex",
     },
     {
       id: 4,
@@ -55,7 +55,7 @@ const Clubs = ({ id="clubs" }) => {
       desc: "Bridging the gap between aesthetics and functionality. We focus on UI/UX research and creating seamless digital experiences.",
       img: "/WebAssets/bloggingclub.jpg",
       color: "from-pink-600",
-      link: "/fs",
+      link: "/clubs/bloggingclub",
     },
     {
       id: 5,
@@ -63,7 +63,7 @@ const Clubs = ({ id="clubs" }) => {
       desc: "The guardians of the digital realm. We train in ethical hacking and cryptography to secure the future of the internet.",
       img: "/WebAssets/researchclub.jpg",
       color: "from-cyan-600",
-      link: "/ck",
+      link: "/clubs/researchclub",
     },
   ];
 
