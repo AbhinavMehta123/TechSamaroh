@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef, useState } from "react"; // 👈 added useState here
+import React, { useRef, useState } from "react"; 
 import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
 import { Dancing_Script } from "next/font/google";
@@ -12,9 +12,9 @@ const dancingScript = Dancing_Script({
   variable: "--font-dancing-script",
 });
 
-const Clubs = ({ id }) => {
+const Clubs = ({ id="clubs" }) => {
   const containerRef = useRef(null);
-  const [activeCard, setActiveCard] = useState(null); // 👈 added
+  const [activeCard, setActiveCard] = useState(null); 
 
   const { scrollYProgress } = useScroll({
     target: containerRef,
@@ -37,7 +37,7 @@ const Clubs = ({ id }) => {
       id: 2,
       name: "Cyber Knight",
       desc: "Where engineering meets imagination. We design, build, and program autonomous machines to solve real-world problems.",
-      img: "/WebAssets/cyberknight.jpg",
+      img: "/WebAssets/Cyber Knight logo.jpg",
       color: "from-red-600",
       link: "/apex",
     },
@@ -169,7 +169,7 @@ const Clubs = ({ id }) => {
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
             custom={index * 0.3}
-            onClick={() => setActiveCard(activeCard === club.id ? null : club.id)} // 👈 added toggle
+            onClick={() => setActiveCard(activeCard === club.id ? null : club.id)} 
             className="group relative h-[370px]"
           >
             {/* Glow border */}
@@ -222,7 +222,7 @@ const Clubs = ({ id }) => {
                     "cursor-pointer absolute bottom-0 left-0 w-full py-4 bg-[#e99b63] text-black font-bold text-xs tracking-widest transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]",
                     activeCard === club.id
                       ? "translate-y-0"
-                      : "translate-y-full md:group-hover:translate-y-0" // 👈 click shows, hover still works
+                      : "translate-y-full md:group-hover:translate-y-0" 
                   )}
                 >
                   EXPLORE THE COMMUNITY

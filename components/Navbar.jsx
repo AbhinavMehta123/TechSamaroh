@@ -37,32 +37,31 @@ const Navbar = () => {
   const navItems = ["home", "events", "clubs", "connect"];
 
   const scrollToSection = (id) => {
-    if (pathname !== "/") {
-      router.push("/");
-      setTimeout(() => {
-        const section = document.getElementById(id);
-        if (section) {
-          const yOffset = -100;
-          const y =
-            section.getBoundingClientRect().top +
-            window.pageYOffset +
-            yOffset;
-          window.scrollTo({ top: y, behavior: "smooth" });
-        }
-      }, 600);
-    } else {
-      const section = document.getElementById(id);
-      if (section) {
-        const yOffset = -100;
-        const y =
-          section.getBoundingClientRect().top +
-          window.pageYOffset +
-          yOffset;
-        window.scrollTo({ top: y, behavior: "smooth" });
-      }
+  const scrollTo = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      const yOffset = -100;
+      const y = section.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: "smooth" });
+      return true;
     }
-    setIsOpen(false);
+    return false;
   };
+
+  if (pathname !== "/") {
+    router.push("/");
+    // Repeatedly check until section appears (max 2 seconds)
+    const interval = setInterval(() => {
+      if (scrollTo(id)) clearInterval(interval);
+    }, 200);
+    setTimeout(() => clearInterval(interval), 2000);
+  } else {
+    scrollTo(id);
+  }
+
+  setIsOpen(false);
+};
+
 
   return (
     <header className="fixed top-0 left-0 w-full flex justify-between items-center py-6 px-4 lg:px-20 text-white z-[100] border-b-[0.3px] border-[#e99b63] bg-black">

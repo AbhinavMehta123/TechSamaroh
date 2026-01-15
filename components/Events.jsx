@@ -12,7 +12,7 @@ const dancingScript = Dancing_Script({
   variable: "--font-dancing-script",
 });
 
-const Events = ({ id }) => {
+const Events = ({ id="events" }) => {
   const containerRef = useRef(null);
   const [activeCard, setActiveCard] = useState(null); 
 
@@ -37,7 +37,7 @@ const Events = ({ id }) => {
       id: 2,
       name: "Cyber Knight",
       desc: "Where engineering meets imagination. We design, build, and program autonomous machines to solve real-world problems.",
-      img: "/WebAssets/cyberknight.jpg",
+      img: "/WebAssets/Cyber Knight logo.jpg",
       color: "from-red-600",
       link: "/apex",
     },
@@ -139,7 +139,7 @@ const Events = ({ id }) => {
             dancingScript.className
           )}
         >
-          Clubs
+          Events
         </motion.h2>
 
         <motion.p
