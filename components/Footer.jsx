@@ -173,13 +173,13 @@ const Footer = () => {
       {/* Credits */}
      {/* Credits */}
 <div className="relative z-10 pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6">
-  <p className="text-[10px] md:text-[15px] lg:text-[20px] text-gray-500 uppercase tracking-widest">
+  <p className="text-[12px] md:text-[20px] lg:text-[20px] text-white uppercase tracking-widest">
     © {new Date().getFullYear()} Tech samarooh. All Rights Reserved.
   </p>
 
   <div className="flex items-center gap-4 group cursor-default">
     <div className="text-right">
-      <p className="text-[10px] md:text-[20px] lg:text-[20px] sm:text-[20px] text-black uppercase tracking-tighter">
+      <p className="text-[12px] text-white uppercase tracking-tighter">
         Developed by
       </p>
       <p className="text-sm font-black group-hover:text-[#e99b63] transition-colors">
