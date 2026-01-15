@@ -34,7 +34,7 @@ const Navbar = () => {
     },
   };
 
-  const navItems = ["home", "clubs", "events", "connect"];
+  const navItems = ["home", "events", "clubs", "connect"];
 
   const scrollToSection = (id) => {
     if (pathname !== "/") {
