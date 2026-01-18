@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef, useState } from "react"; 
+import React, { useRef, useState } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
 import { Dancing_Script } from "next/font/google";
@@ -12,9 +12,9 @@ const dancingScript = Dancing_Script({
   variable: "--font-dancing-script",
 });
 
-const Events = ({ id="events" }) => {
+const Events = ({ id = "events" }) => {
   const containerRef = useRef(null);
-  const [activeCard, setActiveCard] = useState(null); 
+  const [activeCard, setActiveCard] = useState(null);
 
   const { scrollYProgress } = useScroll({
     target: containerRef,
@@ -24,46 +24,46 @@ const Events = ({ id="events" }) => {
   const opacity = useTransform(scrollYProgress, [0, 0.15, 0.8, 1], [0, 1, 1, 0.9]);
   const scale = useTransform(scrollYProgress, [0, 0.2, 0.8, 1], [0.95, 1, 1, 0.98]);
 
-  const clubList = [
+  const eventList = [
     {
-      id: 1,
-      name: "ALFA Coding Club",
+      id: "hack-a-thon-2026",
+      name: "CODEX Build",
       desc: "A community of developers dedicated to mastering algorithms, competitive programming, and open-source contribution.",
       img: "/WebAssets/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
       color: "from-blue-600",
-      link: "/alfa",
+      link: "/events/hack-a-thon-2026",
     },
     {
-      id: 2,
+      id: "cyber-knight",
       name: "Cyber Knight",
       desc: "Where engineering meets imagination. We design, build, and program autonomous machines to solve real-world problems.",
       img: "/WebAssets/Cyber Knight logo.jpg",
       color: "from-red-600",
-      link: "/apex",
+      link: "/events/cyber-knight",
     },
     {
-      id: 3,
+      id: "apex",
       name: "APEX",
       desc: "Exploring the frontiers of Machine Learning and Big Data. Our members build predictive models and dive deep into neural networks.",
       img: "/WebAssets/WhatsApp Image 2026-01-15 at 2.14.11 PM.jpeg",
       color: "from-purple-600",
-      link: "/abc",
+      link: "/events/apex",
     },
     {
-      id: 4,
+      id: "blogging-club",
       name: "Blogging Club",
       desc: "Bridging the gap between aesthetics and functionality. We focus on UI/UX research and creating seamless digital experiences.",
       img: "/WebAssets/bloggingclub.jpg",
       color: "from-pink-600",
-      link: "/fs",
+      link: "/events/blogging-club",
     },
     {
-      id: 5,
+      id: "research-club",
       name: "Research Club",
       desc: "The guardians of the digital realm. We train in ethical hacking and cryptography to secure the future of the internet.",
       img: "/WebAssets/researchclub.jpg",
       color: "from-cyan-600",
-      link: "/ck",
+      link: "/events/research-club",
     },
   ];
 
@@ -161,7 +161,7 @@ const Events = ({ id="events" }) => {
 
       {/* ✨ Clubs Grid */}
       <div className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-center">
-        {clubList.map((club, index) => (
+        {eventList.map((club, index) => (
           <motion.div
             key={club.id}
             variants={fadeUpVariants}

@@ -28,7 +28,7 @@ const ClubPage = () => {
     // 🎯 Full Club Data
     const club = {
         id: 1,
-        name: "Alfa Coding Club",
+        name: "Tech Samaroh",
         tagline: "Innovate • Create • Transform",
         logo: "/WebAssets/tech-innovators-logo.png",
         coverImage: "/WebAssets/cover-tech-innovators.jpg",

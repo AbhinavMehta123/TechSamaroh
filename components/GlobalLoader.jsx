@@ -19,12 +19,10 @@ export default function GlobalLoader() {
       setIsLoading(true);
 
       if (!offline) {
-        // give short delay after reconnect
         setTimeout(() => setIsLoading(false), 800);
       }
     };
 
-    // Run once and subscribe
     updateNetwork();
     window.addEventListener("online", updateNetwork);
     window.addEventListener("offline", updateNetwork);
@@ -47,6 +45,23 @@ export default function GlobalLoader() {
       clearTimeout(fadeTimer);
     };
   }, [pathname]);
+
+  // ✅ Disable scrolling while loader is visible
+  useEffect(() => {
+    if (isLoading || isOffline) {
+      document.body.style.overflow = "hidden";
+      document.body.style.height = "100vh";
+    } else {
+      document.body.style.overflow = "";
+      document.body.style.height = "";
+    }
+
+    return () => {
+      // Reset on unmount
+      document.body.style.overflow = "";
+      document.body.style.height = "";
+    };
+  }, [isLoading, isOffline]);
 
   // 🟢 Keep visible if offline
   if (!isVisible && !isOffline) return null;
