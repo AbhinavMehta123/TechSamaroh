@@ -84,7 +84,7 @@ const Footer = () => {
               Tech Samaroh<span className="text-[#e99b63]"> 2026</span>
             </span>
           </div>
-          <p className="text-gray-400 text-sm leading-relaxed mb-6 text-left">
+          <p className="text-gray-100 text-sm leading-relaxed mb-6 text-left">
             The ultimate convergence of technology and creativity. Join us for a
             journey featuring high-stakes competitions and networking with
             industry leaders.
@@ -102,7 +102,7 @@ const Footer = () => {
         {/* Column 2: Navigation */}
         <div>
           <h4 className="text-lg font-bold mb-6 text-[#e99b63]">Navigation</h4>
-          <ul className="space-y-4 text-sm text-gray-400">
+          <ul className="space-y-4 text-sm text-gray-100">
             {navItems.map((item) => (
               <li key={item}>
                 <button
@@ -139,7 +139,7 @@ const Footer = () => {
                 <p className="text-sm font-bold text-white uppercase tracking-wider">
                   Main Convention Hall
                 </p>
-                <p className="text-xs text-gray-500 mt-1">
+                <p className="text-xs text-gray-100 mt-1">
                   Sector 7, Innovation Park
                 </p>
               </div>
@@ -150,7 +150,7 @@ const Footer = () => {
         {/* Column 4: Contact Info */}
         <div>
           <h4 className="text-lg font-bold mb-6 text-[#e99b63]">Contact Us</h4>
-          <ul className="space-y-4 text-sm text-gray-400">
+          <ul className="space-y-4 text-sm text-gray-100">
             <li className="flex items-center gap-3 hover:text-[#e99b63] transition-colors duration-300">
               <i className="bx bx-envelope text-lg text-[#e99b63]"></i>
               <a href="mailto:info@techfest.com">info@techfest.com</a>

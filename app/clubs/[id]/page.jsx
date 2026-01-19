@@ -103,7 +103,7 @@ const ClubPage = () => {
                     "Learn the latest web development technologies and frameworks in this hands-on workshop.",
             },
             {
-                id: "ai-hackathon",
+                id: "hack-a-thon-2026",
                 name: "AI Hackathon",
                 date: "April 5–6, 2025",
                 description:
@@ -158,7 +158,7 @@ const ClubPage = () => {
             <div className="relative container mx-auto px-6 py-8 z-10">
                 <button
                     onClick={() => router.back()}
-                    className="flex items-center text-[10px] font-bold text-gray-500 hover:text-[#e99b63] transition-colors tracking-widest mt-20 cursor-pointer"
+                    className="flex items-center text-[10px] font-bold text-gray-100 hover:text-[#e99b63] transition-colors tracking-widest mt-20 cursor-pointer"
                 >
                     <ArrowLeft className="w-4 h-4 mr-2 " />
                     BACK TO CLUBS
@@ -196,10 +196,10 @@ const ClubPage = () => {
                     {/* LEFT SECTION */}
                     <div className="lg:col-span-8">
                         <ClubSection title="The Mission" icon={<Target className="w-5 h-5" />}>
-                            <h4 className="text-xl text-gray-400 italic font-light mb-6">
+                            <h4 className="text-xl text-gray-100 italic font-light mb-6">
                                 “{club.mission}”
                             </h4>
-                            <p className="text-gray-500 leading-relaxed text-lg max-w-2xl">
+                            <p className="text-gray-100 leading-relaxed text-lg max-w-2xl">
                                 {club.description}
                             </p>
                         </ClubSection>
@@ -212,7 +212,7 @@ const ClubPage = () => {
                                         className="flex items-center gap-4 p-6 rounded-[24px] bg-[#0a0a0a] border border-white/5"
                                     >
                                         <div className="w-1.5 h-1.5 rounded-full bg-[#e99b63]" />
-                                        <span className="text-sm text-gray-400 font-medium">{item}</span>
+                                        <span className="text-sm text-gray-100 font-medium">{item}</span>
                                     </div>
                                 ))}
                             </div>
@@ -278,7 +278,7 @@ const ClubPage = () => {
                                         </div>
                                         <button
                                             onClick={() => router.push(`/events/${event.id}`)}
-                                            className="w-full py-3 bg-white/5 border border-white/10 text-white text-[9px] font-black uppercase tracking-[0.2em] rounded-[15px] hover:bg-[#e99b63] hover:text-black transition-all flex items-center justify-center gap-2"
+                                            className="cursor-pointer w-full py-4 rounded-xl bg-[#e99b63] text-black font-black text-[10px] tracking-[0.2em] hover:bg-white transition-all shadow-lg shadow-[#e99b63]/10transition-all flex items-center justify-center gap-2"
                                         >
                                             View Event Detail <ChevronRight className="w-3 h-3" />
                                         </button>

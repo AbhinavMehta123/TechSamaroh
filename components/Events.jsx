@@ -29,7 +29,7 @@ const Events = ({ id = "events" }) => {
       id: "hack-a-thon-2026",
       name: "CODEX Build",
       desc: "A community of developers dedicated to mastering algorithms, competitive programming, and open-source contribution.",
-      img: "/WebAssets/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
+      img: "/WebAssets/WhatsApp Image 2026-01-18 at 5.51.57 PM.jpeg",
       color: "from-blue-600",
       link: "/events/hack-a-thon-2026",
     },
