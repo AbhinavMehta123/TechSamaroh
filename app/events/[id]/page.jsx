@@ -16,6 +16,290 @@ import ElegantShape from "@/components/elegantShape";
 
 // 🧩 Event data
 const eventData = {
+  // ALFA DATA
+  "hack-a-thon-2026": {
+    id: "hack-a-thon-2026",
+    name: "HACK-A-THON 2026",
+    tagline: "Code the future, one byte at a time.",
+    timing: "March 15, 10:00 AM",
+    location: "Main Tech Auditorium",
+    teamSize: "2 - 4 Members",
+    description: [
+      "Join the ultimate coding challenge where innovation meets execution. You'll have 24 hours to build a solution to real-world problems.",
+      "Work with mentors, network with peers, and compete for the top spot in the region's biggest tech fest.",
+    ],
+    prizes: [
+      { rank: "1st Place", reward: "₹50,000 + Internship" },
+      { rank: "2nd Place", reward: "₹25,000 + Tech Kit" },
+    ],
+    rules: [
+      "Original code only (no pre-built projects).",
+      "API usage is encouraged.",
+      "Teams must present a working prototype.",
+    ],
+    organizers: [
+      { name: "Alex Rivera", phone: "+91 98765 43210" },
+      { name: "Sarah Chen", phone: "+91 87654 32109" },
+    ],
+    poster:
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+  },
+  "Fire-bound": {
+    id: "hack-a-thon-2026",
+    name: "HACK-A-THON 2026",
+    tagline: "Code the future, one byte at a time.",
+    timing: "March 15, 10:00 AM",
+    location: "Main Tech Auditorium",
+    teamSize: "2 - 4 Members",
+    description: [
+      "Join the ultimate coding challenge where innovation meets execution. You'll have 24 hours to build a solution to real-world problems.",
+      "Work with mentors, network with peers, and compete for the top spot in the region's biggest tech fest.",
+    ],
+    prizes: [
+      { rank: "1st Place", reward: "₹50,000 + Internship" },
+      { rank: "2nd Place", reward: "₹25,000 + Tech Kit" },
+    ],
+    rules: [
+      "Original code only (no pre-built projects).",
+      "API usage is encouraged.",
+      "Teams must present a working prototype.",
+    ],
+    organizers: [
+      { name: "Alex Rivera", phone: "+91 98765 43210" },
+      { name: "Sarah Chen", phone: "+91 87654 32109" },
+    ],
+    poster:
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+  },
+  // CYBER KNIGHT DATA
+  "shadow-trace": {
+    id: "Shadow-trace",
+    name: "Shadow Trace",
+    tagline: "Uncover the system behind the data",
+    timing: "February 20 12:00-1:30",
+    location: "305 at Trinity Dwarka",
+    teamSize: "3 members in each team ",
+    description: [
+      "Digital Crime Scene Investigation (DCSI) is a laptop-based cyber forensics event where students act as digital investigators. A cybercrime has already happened, and participants do not hack or code. Instead, they analyze digital evidence such as access logs, emails, chat screenshots, file timestamps, and company policies provided through a secure drive link. The goal is to understand how the data breach occurred, who was responsible, what data was affected, and which mistake or policy violation allowed it. Teams work together to build a timeline, connect clues, and submit a final investigation report. The event helps students develop logical thinking, cybersecurity awareness, and real-world investigation skills in an ethical and engaging way.",
+    ],
+    prizes: [
+      { rank: "1st Place", reward: "₹500(cash) + trophy + certificate" },
+      { rank: "2nd Place", reward: "₹300(cash) + medal+ certificate" },
+      {rank: "3rd Place", reward: "₹200(cash) + medal+ certificate "},
+    ],
+    rules: [
+      "Phones are prohibited",
+      "Usage of ai is not allowed",
+      "Anyone caught cheating immediately they are out",
+      "Only teams are allowed" ,
+      "Single person team is not allowed",
+    ],
+    organizers: [
+      { name: "Shivam goel", phone: "+91 9891169971" },
+    ],
+    poster:
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+  },
+  "cyber-tok": {
+    id: "Cyber-tok",
+    name: "CyberTok- Crack it, Reel it, Win it ",
+    tagline: "Think Fast. Create Smart. Solve Sharp.",
+    timing: "TBA",
+    location:"ROOM NO. 402",
+    teamSize: "2 Members Per team",
+    description: [
+      "Cyber Quest is a multi-round cybersecurity challenge designed to test participants’ awareness, creativity, and logical thinking in a fun and engaging format. The event blends real-life cyber and networking scenarios with content creation and riddle-solving to create a fast-paced learning experience. Participants begin by analyzing cyber cases, move on to creating awareness reels, and finally compete in a high-energy cyber riddle finale. Open to both technical and non-technical students, Cyber Quest encourages teamwork, communication, and quick decision-making while promoting cyber awareness in a creative way. It is an ideal event for beginners and advanced participants alike, making cybersecurity learning interactive, practical, and exciting.",
+    ],
+    prizes: [
+      { rank: "1st Place", reward: "₹500(cash) + trophy + certificate" },
+      { rank: "2nd Place", reward: "₹300(cash)+ medal+ certificate" },
+      {rank:"3rd Place",reward:"₹200(cash)+ medal+ certificate "},
+    ],
+    rules: [
+    "Team size strictly limited to 2 members",
+    "Internet usage not allowed in Round 1",
+    "Mobile phones allowed only in Round 2",
+    "No pre-recorded or pre-prepared reels",
+    "Any misconduct leads to direct disqualification",
+    "Judges’ decision will be final and binding",
+    ],
+    organizers: [
+      { name: " Ishita Sharma", phone: "+91 9810581549 " },
+    ],
+    poster:
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+  },
+  // FACTSMITH DATA
+  "the-scholar-stage": {
+    id: "the-scholar-stage",
+    name: "THE SCHOLAR’S STAGE",
+    tagline: "Presenting Perspectives, Defining Possibilities!",
+    timing: "TBA",
+    location: "Conference Room",
+    teamSize: "2 Members",
+    description: [
+      "The Scholar’s Stage is a research-based presentation event designed to provide a platform for students to showcase their analytical thinking and innovation on emerging technologies and their impact on the future. Participants will present well-structured research presentations evaluated on research methodology, content depth, and presentation skills. This competition is more than just a presentation; it is a challenge to think critically, communicate effectively, and engage in meaningful intellectual discussions with peers and experts. It provides a unique opportunity to bridge the gap between academic knowledge and real-world innovation.",
+    ],
+    prizes: [
+      { rank: "1st Place", reward: "₹500(cash) +  Certificates + medals" },
+      { rank: "2nd Place", reward: "₹300(cash) + Certificates + medals" },
+      {rank:"3rd Place", reward: "Certificates + medals+ Hamper(₹ 150) "},
+    ],
+    rules: [
+      "Each team is allowed a maximum of 10 slides for their presentation.",
+      "Maximum 2 participants per team.",
+      "Each team will get a total of 7 minutes (5 minutes for the presentation and 2 minutes for a Q&A session).",
+      "Presentation content must be original and related to the specified topic.",
+      "Presentation should be submitted before the event. ",
+      "Participants must maintain professional decorum during event.",
+    ],
+    organizers: [
+      { name: "Nidhi", phone: "+91 93159 57256" },
+      { name: "Yuvika", phone: "+91 78385 30752" },
+    ],
+    poster:
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+  },
+  "pich-perfect": {
+    id: "pich-perfect",
+    name: "PITCH PERFECT",
+    tagline: "Innovate. Pitch. Inspire.",
+    timing: "TBA",
+    location: "Room 204",
+    teamSize: "1–2 members",
+    description: [
+      "Pitch Perfect is a dynamic idea-presentation event organised by the Factsmith Research Club, designed to provide a platform for individuals and teams to showcase innovative ideas and practical solutions. Participants will present their concepts along with prototypes, focusing on originality, feasibility, and market potential. Theme of the event is Tech for Societal Welfare. The event encourages creative thinking, problem-solving, and effective communication skills. Each participant will have the opportunity to defend their idea before a panel of judges through presentations and Q&A sessions. Pitch Perfect aims to nurture innovation, promote entrepreneurial thinking, and empower students to transform ideas into impactful solutions.",
+    ],
+    prizes: [
+      { rank: "1st Place", reward: "₹500(cash) Certificates + medals" },
+      { rank: "2nd Place", reward: "₹300(cash) + Certificates + medals" },
+      {rank: "3rd Place", reward: "Certificates + medals+ Hamper (₹ 150)"},
+    ],
+    rules: [
+    "Participation is open to individuals or teams of up to two members.",
+    "Ideas must be original and submitted before the event.",
+    "Each participant/team will get 5 minutes for presentation and 5 + 2 minutes for prototype demonstration and Q&A.",
+    "Professional conduct is mandatory.",
+    "Participants retain full ownership of their ideas.",
+    ],
+    organizers: [
+      { name: "Khushi Bishtania", phone: "+91 99110 57463" },
+      { name: "Shabnam", phone: "+91 93174 44542" },
+    ],
+    poster:
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+  },
+  // APEX DATA
+  "hack-a-thon-2026": {
+    id: "hack-a-thon-2026",
+    name: "HACK-A-THON 2026",
+    tagline: "Code the future, one byte at a time.",
+    timing: "March 15, 10:00 AM",
+    location: "Main Tech Auditorium",
+    teamSize: "2 - 4 Members",
+    description: [
+      "Join the ultimate coding challenge where innovation meets execution. You'll have 24 hours to build a solution to real-world problems.",
+      "Work with mentors, network with peers, and compete for the top spot in the region's biggest tech fest.",
+    ],
+    prizes: [
+      { rank: "1st Place", reward: "₹50,000 + Internship" },
+      { rank: "2nd Place", reward: "₹25,000 + Tech Kit" },
+    ],
+    rules: [
+      "Original code only (no pre-built projects).",
+      "API usage is encouraged.",
+      "Teams must present a working prototype.",
+    ],
+    organizers: [
+      { name: "Alex Rivera", phone: "+91 98765 43210" },
+      { name: "Sarah Chen", phone: "+91 87654 32109" },
+    ],
+    poster:
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+  },
+  "hack-a-thon-2026": {
+    id: "hack-a-thon-2026",
+    name: "HACK-A-THON 2026",
+    tagline: "Code the future, one byte at a time.",
+    timing: "March 15, 10:00 AM",
+    location: "Main Tech Auditorium",
+    teamSize: "2 - 4 Members",
+    description: [
+      "Join the ultimate coding challenge where innovation meets execution. You'll have 24 hours to build a solution to real-world problems.",
+      "Work with mentors, network with peers, and compete for the top spot in the region's biggest tech fest.",
+    ],
+    prizes: [
+      { rank: "1st Place", reward: "₹50,000 + Internship" },
+      { rank: "2nd Place", reward: "₹25,000 + Tech Kit" },
+    ],
+    rules: [
+      "Original code only (no pre-built projects).",
+      "API usage is encouraged.",
+      "Teams must present a working prototype.",
+    ],
+    organizers: [
+      { name: "Alex Rivera", phone: "+91 98765 43210" },
+      { name: "Sarah Chen", phone: "+91 87654 32109" },
+    ],
+    poster:
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+  },
+  // ARCLIGHT DATA
+  "hack-a-thon-2026": {
+    id: "hack-a-thon-2026",
+    name: "HACK-A-THON 2026",
+    tagline: "Code the future, one byte at a time.",
+    timing: "March 15, 10:00 AM",
+    location: "Main Tech Auditorium",
+    teamSize: "2 - 4 Members",
+    description: [
+      "Join the ultimate coding challenge where innovation meets execution. You'll have 24 hours to build a solution to real-world problems.",
+      "Work with mentors, network with peers, and compete for the top spot in the region's biggest tech fest.",
+    ],
+    prizes: [
+      { rank: "1st Place", reward: "₹50,000 + Internship" },
+      { rank: "2nd Place", reward: "₹25,000 + Tech Kit" },
+    ],
+    rules: [
+      "Original code only (no pre-built projects).",
+      "API usage is encouraged.",
+      "Teams must present a working prototype.",
+    ],
+    organizers: [
+      { name: "Alex Rivera", phone: "+91 98765 43210" },
+      { name: "Sarah Chen", phone: "+91 87654 32109" },
+    ],
+    poster:
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+  },
+  "hack-a-thon-2026": {
+    id: "hack-a-thon-2026",
+    name: "HACK-A-THON 2026",
+    tagline: "Code the future, one byte at a time.",
+    timing: "March 15, 10:00 AM",
+    location: "Main Tech Auditorium",
+    teamSize: "2 - 4 Members",
+    description: [
+      "Join the ultimate coding challenge where innovation meets execution. You'll have 24 hours to build a solution to real-world problems.",
+      "Work with mentors, network with peers, and compete for the top spot in the region's biggest tech fest.",
+    ],
+    prizes: [
+      { rank: "1st Place", reward: "₹50,000 + Internship" },
+      { rank: "2nd Place", reward: "₹25,000 + Tech Kit" },
+    ],
+    rules: [
+      "Original code only (no pre-built projects).",
+      "API usage is encouraged.",
+      "Teams must present a working prototype.",
+    ],
+    organizers: [
+      { name: "Alex Rivera", phone: "+91 98765 43210" },
+      { name: "Sarah Chen", phone: "+91 87654 32109" },
+    ],
+    poster:
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+  },
+  // ALFA AND APEX DATA
   "hack-a-thon-2026": {
     id: "hack-a-thon-2026",
     name: "HACK-A-THON 2026",
@@ -152,13 +436,13 @@ export default function EventPage() {
           <div className="lg:col-span-8">
             {/* Tags Row */}
             <div className="flex flex-wrap gap-3 mb-16">
-              <div className="flex items-center gap-2 px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-[10px] font-black uppercase text-gray-400">
+              <div className="flex items-center gap-2 px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-[10px] font-black uppercase text-gray-100">
                 <Calendar className="w-4 h-4 text-[#e99b63]" /> {event.timing}
               </div>
-              <div className="flex items-center gap-2 px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-[10px] font-black uppercase text-gray-400">
+              <div className="flex items-center gap-2 px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-[10px] font-black uppercase text-gray-100">
                 <MapPin className="w-4 h-4 text-[#e99b63]" /> {event.location}
               </div>
-              <div className="flex items-center gap-2 px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-[10px] font-black uppercase text-gray-400">
+              <div className="flex items-center gap-2 px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-[10px] font-black uppercase text-gray-100">
                 <Users className="w-4 h-4 text-[#e99b63]" /> {event.teamSize}
               </div>
             </div>
@@ -168,7 +452,7 @@ export default function EventPage() {
               title="Description"
               icon={<AlertCircle className="w-5 h-5" />}
             >
-              <div className="text-gray-400 text-base md:text-lg leading-relaxed space-y-4 font-light">
+              <div className="text-gray-100 text-base md:text-lg leading-relaxed space-y-4 font-light">
                 {event.description.map((p, i) => (
                   <p key={i}>{p}</p>
                 ))}
@@ -203,7 +487,7 @@ export default function EventPage() {
                 {event.rules.map((rule, i) => (
                   <li
                     key={i}
-                    className="flex items-start gap-4 text-gray-400 text-sm md:text-base"
+                    className="flex items-start gap-4 text-gray-100 text-sm md:text-base"
                   >
                     <div className="mt-2 w-1.5 h-1.5 rounded-full bg-[#e99b63] shrink-0" />
                     <span>{rule}</span>
@@ -224,15 +508,15 @@ export default function EventPage() {
                   </h3>
                   <div className="space-y-4 mb-8 text-[11px] uppercase tracking-widest font-bold">
                     <div className="flex justify-between pb-4 border-b border-white/5">
-                      <span className="text-gray-500">Registration</span>
+                      <span className="text-gray-100">Registration</span>
                       <span className="text-green-500">Live</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-gray-500">Access</span>
+                      <span className="text-gray-100">Access</span>
                       <span className="text-white">Public</span>
                     </div>
                   </div>
-                  <button className="w-full py-4 rounded-xl bg-[#e99b63] text-black font-black text-[10px] tracking-[0.2em] hover:bg-white transition-all shadow-lg shadow-[#e99b63]/10">
+                  <button className="cursor-pointer w-full py-4 rounded-xl bg-[#e99b63] text-black font-black text-[10px] tracking-[0.2em] hover:bg-white transition-all shadow-lg shadow-[#e99b63]/10">
                     JOIN EVENT NOW
                   </button>
                 </div>
@@ -249,7 +533,7 @@ export default function EventPage() {
                       <span className="text-white font-bold text-xs uppercase tracking-wider">
                         {org.name}
                       </span>
-                      <span className="text-gray-600 text-[11px] mt-1">
+                      <span className="text-gray-100 text-[11px] mt-1">
                         {org.phone}
                       </span>
                     </div>

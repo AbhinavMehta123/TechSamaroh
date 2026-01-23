@@ -28,7 +28,7 @@ const Clubs = ({ id="clubs" }) => {
     {
       id: 1,
       name: "ALFA Coding Club",
-      desc: "A community of developers dedicated to mastering algorithms, competitive programming, and open-source contribution.",
+      desc: "ALFA Coding Club is the official coding club of the CS & IT Department at Trinity Institute of Professional Studies.It serves as a hub for tech enthusiasts,fostering a collaborative learning environement throught workshop, hackckathons,and coding competitions.The club empower students with hands on experience in emerging technologies.",
       img: "/WebAssets/WhatsApp Image 2025-12-28 at 9.03.33 PM.jpeg",
       color: "from-blue-600",
       link: "/clubs/alfa",
@@ -36,7 +36,7 @@ const Clubs = ({ id="clubs" }) => {
     {
       id: 2,
       name: "Cyber Knight",
-      desc: "Where engineering meets imagination. We design, build, and program autonomous machines to solve real-world problems.",
+      desc: "Cyber Knight is the Networking and Security club of Trinty Institute of Professional Studies.Cyber knight focuses on spreading awareness on cyber security and gives opportunities to the students who are enthusiastic about cyber security world and wanted to explore about Ethical hacking,Security and Networking by taking various seminars and sessions.",
       img: "/WebAssets/Cyber Knight logo.jpg",
       color: "from-red-600",
       link: "/clubs/cyberknight",
@@ -44,23 +44,23 @@ const Clubs = ({ id="clubs" }) => {
     {
       id: 3,
       name: "APEX",
-      desc: "Exploring the frontiers of Machine Learning and Big Data. Our members build predictive models and dive deep into neural networks.",
+      desc: "APEX- Designing Society of Trinity,Dwarka, is the college's creative arts hub, promoting innovation and collaboration in design, video production, photography and more.The Society offers students a platform to develop their skills through workshops, competitions, and hands-on projects across various creative fields.",
       img: "/WebAssets/WhatsApp Image 2026-01-15 at 2.14.11 PM.jpeg",
       color: "from-purple-600",
       link: "/clubs/apex",
     },
     {
       id: 4,
-      name: "Blogging Club",
-      desc: "Bridging the gap between aesthetics and functionality. We focus on UI/UX research and creating seamless digital experiences.",
+      name: "FactSmith",
+      desc: "FactSmith is a student-driven research club under the CS & IT Department at Trinity Institute of Professional Studies our motto is to Innovating for the better future. The club is dedicated to fostering analytical thinking,innovation,and knowledge sharing among students.It provides a platform for aspiring researchers to explore emerging technologies, conduct research, and participate in the academic discussions.",
       img: "/WebAssets/bloggingclub.jpg",
       color: "from-pink-600",
       link: "/clubs/bloggingclub",
     },
     {
       id: 5,
-      name: "Research Club",
-      desc: "The guardians of the digital realm. We train in ethical hacking and cryptography to secure the future of the internet.",
+      name: "Arclight Blogging Club",
+      desc: "Arclight is the official blogging club of the CS & IT department at Trinity Institute of Professional Studies. The clubs encourages creativity, collaboration, and communication, serving as a platform for the students to share ideas, experiences, and showcase their literary talents in various forms technical writing to storytelling.",
       img: "/WebAssets/researchclub.jpg",
       color: "from-cyan-600",
       link: "/clubs/researchclub",
@@ -170,7 +170,7 @@ const Clubs = ({ id="clubs" }) => {
             viewport={{ once: true, amount: 0.3 }}
             custom={index * 0.3}
             onClick={() => setActiveCard(activeCard === club.id ? null : club.id)} 
-            className="group relative h-[370px]"
+            className="group relative h-auto"
           >
             {/* Glow border */}
             <motion.div
@@ -196,7 +196,7 @@ const Clubs = ({ id="clubs" }) => {
                 <motion.div
                   whileHover={{ scale: 1.1 }}
                   transition={{ type: "spring", stiffness: 200, damping: 18 }}
-                  className="w-20 h-20 rounded-2xl bg-white/5 border border-white/10 overflow-hidden flex items-center justify-center group-hover:border-[#e99b63]/50 group-hover:bg-[#e99b63]/10 transition-all duration-500"
+                  className="w-19 h-19 rounded-2xl bg-white/5 border border-white/10 overflow-hidden flex items-center justify-center group-hover:border-[#e99b63]/50 group-hover:bg-[#e99b63]/10 transition-all duration-500"
                 >
                   <img
                     src={club.img}

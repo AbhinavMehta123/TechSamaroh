@@ -1,6 +1,6 @@
 "use client";
 import React, { useRef, useState } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { color, motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
 import { Dancing_Script } from "next/font/google";
 import { cn } from "@/lib/utils";
@@ -34,30 +34,79 @@ const Events = ({ id = "events" }) => {
       link: "/events/hack-a-thon-2026",
     },
     {
-      id: "cyber-knight",
-      name: "Cyber Knight",
-      desc: "Where engineering meets imagination. We design, build, and program autonomous machines to solve real-world problems.",
+      id: "Fire-bound",
+      name: "Fire Bound",
+      desc: "",
+      img: "",
+      color: "from-red-600",
+      link: "/events/hack-a-thon-2026",
+    },
+    {
+      id: "cyber-tok",
+      name: "Cyber TOK",
+      desc: "",
       img: "/WebAssets/Cyber Knight logo.jpg",
       color: "from-red-600",
-      link: "/events/cyber-knight",
+      link: "/events/cyber-tok",
+
     },
     {
-      id: "apex",
-      name: "APEX",
-      desc: "Exploring the frontiers of Machine Learning and Big Data. Our members build predictive models and dive deep into neural networks.",
-      img: "/WebAssets/WhatsApp Image 2026-01-15 at 2.14.11 PM.jpeg",
+      id: "shadow-trace",
+      name: "Shadow Trace",
+      desc: "Digital Crime Scene Investigation (DCSI) is a laptop-based cyber forensics event where students act as digital investigators. A cybercrime has already happened, and participants do not hack or code. Instead, they analyze digital evidence such as access logs, emails, chat screenshots, file timestamps, and company policies provided through a secure drive link.",
+      img: "",
       color: "from-purple-600",
-      link: "/events/apex",
+      link: "/events/shadow-trace",
     },
     {
-      id: "blogging-club",
-      name: "Blogging Club",
-      desc: "Bridging the gap between aesthetics and functionality. We focus on UI/UX research and creating seamless digital experiences.",
-      img: "/WebAssets/bloggingclub.jpg",
+      id: "the-scholar-stage",
+      name: "The Scholar’s Stage",
+      desc: "",
+      img: "",
       color: "from-pink-600",
-      link: "/events/blogging-club",
+      link: "/events/the-scholar-stage",
     },
     {
+      id: "pich-perfect",
+      name: "Pich Perfect",
+      desc: "",
+      img: "",
+      color: "from-cyan-600",
+      link: "/events/pich-perfect",
+    },
+     {
+      id: "brand-bot",
+      name: "Brand Bot",
+      desc: "The guardians of the digital realm. We train in ethical hacking and cryptography to secure the future of the internet.",
+      img: "/WebAssets/researchclub.jpg",
+      color: "from-cyan-600",
+      link: "/events/research-club",
+    },
+     {
+      id: "research-club",
+      name: "Research Club",
+      desc: "The guardians of the digital realm. We train in ethical hacking and cryptography to secure the future of the internet.",
+      img: "/WebAssets/researchclub.jpg",
+      color: "from-cyan-600",
+      link: "/events/research-club",
+    },
+     {
+      id: "research-club",
+      name: "Research Club",
+      desc: "The guardians of the digital realm. We train in ethical hacking and cryptography to secure the future of the internet.",
+      img: "/WebAssets/researchclub.jpg",
+      color: "from-cyan-600",
+      link: "/events/research-club",
+    },
+     {
+      id: "research-club",
+      name: "Research Club",
+      desc: "The guardians of the digital realm. We train in ethical hacking and cryptography to secure the future of the internet.",
+      img: "/WebAssets/researchclub.jpg",
+      color: "from-cyan-600",
+      link: "/events/research-club",
+    },
+     {
       id: "research-club",
       name: "Research Club",
       desc: "The guardians of the digital realm. We train in ethical hacking and cryptography to secure the future of the internet.",
@@ -170,7 +219,7 @@ const Events = ({ id = "events" }) => {
             viewport={{ once: true, amount: 0.3 }}
             custom={index * 0.3}
             onClick={() => setActiveCard(activeCard === club.id ? null : club.id)} // 👈 added toggle
-            className="group relative h-[370px]"
+            className="group relative h-auto"
           >
             {/* Glow border */}
             <motion.div
@@ -196,7 +245,7 @@ const Events = ({ id = "events" }) => {
                 <motion.div
                   whileHover={{ scale: 1.1 }}
                   transition={{ type: "spring", stiffness: 200, damping: 18 }}
-                  className="w-20 h-20 rounded-2xl bg-white/5 border border-white/10 overflow-hidden flex items-center justify-center group-hover:border-[#e99b63]/50 group-hover:bg-[#e99b63]/10 transition-all duration-500"
+                  className="w-19 h-19 rounded-2xl bg-white/5 border border-white/10 overflow-hidden flex items-center justify-center group-hover:border-[#e99b63]/50 group-hover:bg-[#e99b63]/10 transition-all duration-500"
                 >
                   <img
                     src={club.img}
@@ -225,7 +274,7 @@ const Events = ({ id = "events" }) => {
                       : "translate-y-full md:group-hover:translate-y-0" // 👈 click shows, hover still works
                   )}
                 >
-                  EXPLORE THE COMMUNITY
+                  VIEW EVENT DETAILS
                 </motion.button>
               </Link>
             </motion.div>
