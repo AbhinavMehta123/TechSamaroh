@@ -124,7 +124,7 @@ const Clubs = ({ id="clubs" }) => {
           className="px-6 py-2 bg-white/5 border border-[#e99b63]/30 rounded-full mb-8 backdrop-blur-md"
         >
           <span className="text-[12px] tracking-[0.4em] font-bold text-[#e99b63] uppercase">
-            Communities
+            Join Our Community
           </span>
         </motion.div>
 
@@ -152,7 +152,7 @@ const Clubs = ({ id="clubs" }) => {
         >
           Join{" "}
           <span className="text-[#e99b63] font-semibold">
-            Tech Samarooh’s exclusive clubs
+            Our exclusive Communities
           </span>{" "}
           — where innovation meets collaboration. Shape the future of
           technology with creativity, teamwork, and passion!

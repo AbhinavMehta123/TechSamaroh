@@ -80,40 +80,8 @@ const Events = ({ id = "events" }) => {
       desc: "The guardians of the digital realm. We train in ethical hacking and cryptography to secure the future of the internet.",
       img: "/WebAssets/researchclub.jpg",
       color: "from-cyan-600",
-      link: "/events/research-club",
-    },
-     {
-      id: "research-club",
-      name: "Research Club",
-      desc: "The guardians of the digital realm. We train in ethical hacking and cryptography to secure the future of the internet.",
-      img: "/WebAssets/researchclub.jpg",
-      color: "from-cyan-600",
-      link: "/events/research-club",
-    },
-     {
-      id: "research-club",
-      name: "Research Club",
-      desc: "The guardians of the digital realm. We train in ethical hacking and cryptography to secure the future of the internet.",
-      img: "/WebAssets/researchclub.jpg",
-      color: "from-cyan-600",
-      link: "/events/research-club",
-    },
-     {
-      id: "research-club",
-      name: "Research Club",
-      desc: "The guardians of the digital realm. We train in ethical hacking and cryptography to secure the future of the internet.",
-      img: "/WebAssets/researchclub.jpg",
-      color: "from-cyan-600",
-      link: "/events/research-club",
-    },
-     {
-      id: "research-club",
-      name: "Research Club",
-      desc: "The guardians of the digital realm. We train in ethical hacking and cryptography to secure the future of the internet.",
-      img: "/WebAssets/researchclub.jpg",
-      color: "from-cyan-600",
-      link: "/events/research-club",
-    },
+      link: "/events/brand-bot",
+    },   
   ];
 
   const fadeUpVariants = {
@@ -173,7 +141,7 @@ const Events = ({ id = "events" }) => {
           className="px-6 py-2 bg-white/5 border border-[#e99b63]/30 rounded-full mb-8 backdrop-blur-md"
         >
           <span className="text-[12px] tracking-[0.4em] font-bold text-[#e99b63] uppercase">
-            Communities
+            Tech Samaaroh 2026
           </span>
         </motion.div>
 
@@ -201,10 +169,9 @@ const Events = ({ id = "events" }) => {
         >
           Join{" "}
           <span className="text-[#e99b63] font-semibold">
-            Tech Samarooh’s exclusive clubs
+            Tech Samarooh’s exclusive events
           </span>{" "}
-          — where innovation meets collaboration. Shape the future of
-          technology with creativity, teamwork, and passion!
+          — Discover the exciting lineup of events at Tech Samaaroh 2026. From coding competitions to workshops, there's something for everyone!
         </motion.p>
       </div>
 

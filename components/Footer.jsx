@@ -85,9 +85,7 @@ const Footer = () => {
             </span>
           </div>
           <p className="text-gray-100 text-sm leading-relaxed mb-6 text-left">
-            The ultimate convergence of technology and creativity. Join us for a
-            journey featuring high-stakes competitions and networking with
-            industry leaders.
+            Tech Samaaroh 2026 – Trinity Dwarka's premier tech fest, showcasing innovation, competitions, and creativity in the digital era!
           </p>
           <div className="flex gap-4">
             <a
@@ -126,10 +124,10 @@ const Footer = () => {
               <i className="bx bx-calendar text-2xl text-[#e99b63]"></i>
               <div>
                 <p className="text-sm font-bold text-white uppercase tracking-wider">
-                  March 15 - 19, 2026
+                  February 20, 2026
                 </p>
                 <p className="text-xs text-gray-500 mt-1">
-                  University Tech Campus
+                  Trinity Dwarka Main Campus
                 </p>
               </div>
             </div>
@@ -137,10 +135,10 @@ const Footer = () => {
               <i className="bx bx-map-pin text-2xl text-[#e99b63]"></i>
               <div>
                 <p className="text-sm font-bold text-white uppercase tracking-wider">
-                  Main Convention Hall
+                  Trinty Dwarka
                 </p>
                 <p className="text-xs text-gray-100 mt-1">
-                  Sector 7, Innovation Park
+                Trinity Dwarka, Sector-9, New Delhi, India
                 </p>
               </div>
             </div>
@@ -153,17 +151,16 @@ const Footer = () => {
           <ul className="space-y-4 text-sm text-gray-100">
             <li className="flex items-center gap-3 hover:text-[#e99b63] transition-colors duration-300">
               <i className="bx bx-envelope text-lg text-[#e99b63]"></i>
-              <a href="mailto:info@techfest.com">info@techfest.com</a>
+              <a href="mailto:tips@tips.edu.in">tips@tips.edu.in</a>
             </li>
             <li className="flex items-center gap-3 hover:text-[#e99b63] transition-colors duration-300">
               <i className="bx bx-phone text-lg text-[#e99b63]"></i>
-              <a href="tel:+919876543210">+91 98765 43210</a>
+              <a href="tel:+919315911715 +919315911714">9315911715 , 9315911714</a>
             </li>
             <li className="flex items-start gap-3 text-left hover:text-[#e99b63] transition-colors duration-300">
               <i className="bx bx-current-location text-lg text-[#e99b63]"></i>
               <span>
-                Building 101, Science Park, <br />
-                Cyber City, India
+                Trinity Dwarka, Sector-9, New Delhi, India
               </span>
             </li>
           </ul>

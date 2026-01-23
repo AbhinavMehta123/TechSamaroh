@@ -102,7 +102,7 @@ const eventData = {
   },
   "cyber-tok": {
     id: "Cyber-tok",
-    name: "CyberTok- Crack it, Reel it, Win it ",
+    name: "CyberTok - Crack it, Reel it, Win it ",
     tagline: "Think Fast. Create Smart. Solve Sharp.",
     timing: "TBA",
     location:"ROOM NO. 402",
@@ -190,29 +190,30 @@ const eventData = {
       "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
   },
   // APEX DATA
-  "hack-a-thon-2026": {
-    id: "hack-a-thon-2026",
-    name: "HACK-A-THON 2026",
-    tagline: "Code the future, one byte at a time.",
-    timing: "March 15, 10:00 AM",
-    location: "Main Tech Auditorium",
-    teamSize: "2 - 4 Members",
+  "brand-bot": {
+    id: "brand-bot",
+    name: "Brand Bot",
+    tagline: "Prompt the Future. Pitch the Vision.",
+    timing: "February 20, TBA",
+    location: "Room 407 ",
+    teamSize: "Minimum 2 and Maximum 4 participants",
     description: [
-      "Join the ultimate coding challenge where innovation meets execution. You'll have 24 hours to build a solution to real-world problems.",
-      "Work with mentors, network with peers, and compete for the top spot in the region's biggest tech fest.",
+      "A branding challenge where participants use Generative AI to design a visual identity and pitch a solution for a Crisis Brand",
     ],
     prizes: [
-      { rank: "1st Place", reward: "₹50,000 + Internship" },
-      { rank: "2nd Place", reward: "₹25,000 + Tech Kit" },
+      { rank: "1st Place", reward: "₹500" },
+      { rank: "2nd Place", reward: "₹300" },
     ],
     rules: [
-      "Original code only (no pre-built projects).",
-      "API usage is encouraged.",
-      "Teams must present a working prototype.",
+      "AI Integration: Use of Generative AI tools (DALL-E, Midjourney, etc.) is mandatory for visual assets, but the Brand Name and Slogan must be original.",
+      "Transparency: Teams must submit a Prompt Log (screenshots or text) showing the iteration of their AI prompts.",
+      "Human Touch: Final output must be a cohesive Brand Poster created by the student using the AI-generated elements.",
+      "Pitching: Each team must be prepared for a 90-second Power Pitch immediately following the 60-minute creation window.",
+      "Academic Integrity: Use of pre-made brand templates or plagiarizing existing company logos will lead to immediate disqualification.",
     ],
     organizers: [
-      { name: "Alex Rivera", phone: "+91 98765 43210" },
-      { name: "Sarah Chen", phone: "+91 87654 32109" },
+      { name: "Charu Kakkar", phone: "+91 8368411655" },
+      { name: "Vaibhav Sharma", phone: "+91 9873600910" },
     ],
     poster:
       "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
