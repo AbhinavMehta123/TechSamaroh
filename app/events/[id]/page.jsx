@@ -37,12 +37,16 @@ const eventData = {
       "API usage is encouraged.",
       "Teams must present a working prototype.",
     ],
+    requirements:[
+
+    ],
     organizers: [
       { name: "Alex Rivera", phone: "+91 98765 43210" },
       { name: "Sarah Chen", phone: "+91 87654 32109" },
     ],
     poster:
       "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+    LeftPoster:"",  
   },
   "Fire-bound": {
     id: "hack-a-thon-2026",
@@ -86,6 +90,7 @@ const eventData = {
       { rank: "1st Place", reward: "₹500(cash) + trophy + certificate" },
       { rank: "2nd Place", reward: "₹300(cash) + medal+ certificate" },
       {rank: "3rd Place", reward: "₹200(cash) + medal+ certificate "},
+      {rank:"All Participants" , participation:"Everyone will get digital certificates of participation"},
     ],
     rules: [
       "Phones are prohibited",
@@ -93,6 +98,10 @@ const eventData = {
       "Anyone caught cheating immediately they are out",
       "Only teams are allowed" ,
       "Single person team is not allowed",
+    ],
+    requirements:[
+    "Laptop/id card",
+    "Pen",
     ],
     organizers: [
       { name: "Shivam goel", phone: "+91 9891169971" },
@@ -114,6 +123,7 @@ const eventData = {
       { rank: "1st Place", reward: "₹500(cash) + trophy + certificate" },
       { rank: "2nd Place", reward: "₹300(cash)+ medal+ certificate" },
       {rank:"3rd Place",reward:"₹200(cash)+ medal+ certificate "},
+      {rank:"All Participants",participation:"Participation Certificate"},
     ],
     rules: [
     "Team size strictly limited to 2 members",
@@ -122,6 +132,12 @@ const eventData = {
     "No pre-recorded or pre-prepared reels",
     "Any misconduct leads to direct disqualification",
     "Judges’ decision will be final and binding",
+    ],
+    requirements:[
+      "Valid College ID Card",
+      "Smartphone (only for Round 2 – Reel Creation)",
+      "Basic cybersecurity awareness",
+      "Creativity & teamwork skills",
     ],
     organizers: [
       { name: " Ishita Sharma", phone: "+91 9810581549 " },
@@ -144,6 +160,7 @@ const eventData = {
       { rank: "1st Place", reward: "₹500(cash) +  Certificates + medals" },
       { rank: "2nd Place", reward: "₹300(cash) + Certificates + medals" },
       {rank:"3rd Place", reward: "Certificates + medals+ Hamper(₹ 150) "},
+      {rank:"All Participants", participation:"Certificate of Participation"},
     ],
     rules: [
       "Each team is allowed a maximum of 10 slides for their presentation.",
@@ -152,6 +169,11 @@ const eventData = {
       "Presentation content must be original and related to the specified topic.",
       "Presentation should be submitted before the event. ",
       "Participants must maintain professional decorum during event.",
+    ],
+    requirements:[
+    "College ID Card (mandatory)",
+    "Laptop for presentation" ,
+    "Presentation (compatible with MS PowerPoint)",
     ],
     organizers: [
       { name: "Nidhi", phone: "+91 93159 57256" },
@@ -173,7 +195,8 @@ const eventData = {
     prizes: [
       { rank: "1st Place", reward: "₹500(cash) Certificates + medals" },
       { rank: "2nd Place", reward: "₹300(cash) + Certificates + medals" },
-      {rank: "3rd Place", reward: "Certificates + medals+ Hamper (₹ 150)"},
+      { rank: "3rd Place", reward: "Certificates + medals+ Hamper (₹ 150)"},
+      { rank:"All Participants", participation:"Certificate of Participation"},
     ],
     rules: [
     "Participation is open to individuals or teams of up to two members.",
@@ -181,6 +204,12 @@ const eventData = {
     "Each participant/team will get 5 minutes for presentation and 5 + 2 minutes for prototype demonstration and Q&A.",
     "Professional conduct is mandatory.",
     "Participants retain full ownership of their ideas.",
+    ],
+    requirements:[
+    "Laptop (mandatory)",
+    "College/School ID Card",
+    "Presentation (PPT)",
+
     ],
     organizers: [
       { name: "Khushi Bishtania", phone: "+91 99110 57463" },
@@ -211,6 +240,12 @@ const eventData = {
       "Pitching: Each team must be prepared for a 90-second Power Pitch immediately following the 60-minute creation window.",
       "Academic Integrity: Use of pre-made brand templates or plagiarizing existing company logos will lead to immediate disqualification.",
     ],
+    requirements:[
+    "Use of pre-made templates are not allowed.",
+    "Brand Name and Slogan must be completely original and created during the event.",
+    "Brand type and crisis brief will be revealed on the spot at the start of the event.",
+
+    ],
     organizers: [
       { name: "Charu Kakkar", phone: "+91 8368411655" },
       { name: "Vaibhav Sharma", phone: "+91 9873600910" },
@@ -218,29 +253,41 @@ const eventData = {
     poster:
       "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
   },
-  "hack-a-thon-2026": {
-    id: "hack-a-thon-2026",
-    name: "HACK-A-THON 2026",
-    tagline: "Code the future, one byte at a time.",
-    timing: "March 15, 10:00 AM",
-    location: "Main Tech Auditorium",
-    teamSize: "2 - 4 Members",
+  "pixcel-pulse": {
+    id: "pixcel-pulse",
+    name: "Pixel Pulse",
+    tagline: "Freeze the Frame. Master the Edit.",
+    timing: "February 20, 60 minutes",
+    location: "Room 407 (Campus Photo Hunt Area)",
+    teamSize: "2 Members",
     description: [
-      "Join the ultimate coding challenge where innovation meets execution. You'll have 24 hours to build a solution to real-world problems.",
-      "Work with mentors, network with peers, and compete for the top spot in the region's biggest tech fest.",
+      "Pixel Pulse is a high-speed photography and editing challenge that puts creativity and quick thinking to the test. The event kicks off with an exciting round of Tech Charades, designed to assess participants’ visual and media awareness. Once the theme is unlocked, teams race across the campus to capture a compelling photograph using only their mobile phones. The captured image must then be edited within the given time using free mobile editing applications. With no professional equipment, no pre-set filters, and strict time constraints, Pixel Pulse challenges participants to rely purely on their vision, storytelling skills, and editing instincts to create a striking visual narrative.",
     ],
     prizes: [
-      { rank: "1st Place", reward: "₹50,000 + Internship" },
-      { rank: "2nd Place", reward: "₹25,000 + Tech Kit" },
+      { rank: "1st Place", reward: "₹500(cash) + Certificate" },
+      { rank: "2nd Place", reward: "₹300 (Cash) + Certificate" },
+      {rank:"3rd Place", reward:"Certificate"},
+      {rank:"All Participants", participation:"Participation Certificate"},
     ],
     rules: [
-      "Original code only (no pre-built projects).",
-      "API usage is encouraged.",
-      "Teams must present a working prototype.",
+      "Participation is allowed only in teams of two",
+      "Only mobile phones are permitted; DSLRs and pre-shot images are strictly prohibited",
+      "Round 1 (Tech Charades) must be completed to unlock the photo theme",
+      "No pre-set filters or professional editing software allowed",
+      "Editing must be done from scratch within the 60-minute duration",
+      "One Raw JPEG and one Edited JPEG must be submitted before time ends",
+      "Late or incomplete submissions will not be accepted",
+
+    ],
+    requirements:[
+    "Smartphone with camera",
+    "Free mobile editing apps (Lightroom Mobile, Snapseed, etc.)",
+    "College ID Card",
+    "Internet access (for submission if required)",
     ],
     organizers: [
-      { name: "Alex Rivera", phone: "+91 98765 43210" },
-      { name: "Sarah Chen", phone: "+91 87654 32109" },
+      { name: "Dev", phone: "+91 7042077948" },
+      { name: "Aarav", phone: "+91 7834995446" },
     ],
     poster:
       "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
@@ -349,7 +396,7 @@ export default function EventPage() {
   const params = useParams();
   const eventId = params?.id?.toLowerCase?.();
 
-  const [event, setEvent] = useState(undefined); // undefined = loading
+  const [event, setEvent] = useState(undefined);
   const [isMobile, setIsMobile] = useState(false);
 
   // ✅ Fetch event safely
@@ -360,7 +407,7 @@ export default function EventPage() {
     else setEvent(null);
   }, [eventId]);
 
-  // ✅ Redirect only if definitely not found
+  // ✅ Redirect if not found
   useEffect(() => {
     if (event === null) {
       router.replace("/events");
@@ -405,7 +452,7 @@ export default function EventPage() {
           onClick={() => router.back()}
           className="flex items-center text-[10px] font-bold text-gray-500 hover:text-[#e99b63] transition-colors tracking-widest mt-20 cursor-pointer"
         >
-          <ArrowLeft className="w-4 h-4 mr-2 " />
+          <ArrowLeft className="w-4 h-4 mr-2" />
           BACK TO EVENTS
         </button>
       </div>
@@ -474,6 +521,9 @@ export default function EventPage() {
                     <p className="text-[#e99b63] text-sm font-medium mt-1">
                       {prize.reward}
                     </p>
+                    <p className="text-[#e99b63] text-sm font-medium mt-1">
+                      {prize.participation}
+                    </p>
                   </div>
                 ))}
               </div>
@@ -496,12 +546,32 @@ export default function EventPage() {
                 ))}
               </ul>
             </EventSection>
+
+            {/* Requirements */}
+            {event.requirements && (
+              <EventSection
+                title="Requirements"
+                icon={<CheckCircle className="w-5 h-5" />}
+              >
+                <ul className="space-y-4">
+                  {event.requirements.map((req, i) => (
+                    <li
+                      key={i}
+                      className="flex items-start gap-4 text-gray-100 text-sm md:text-base"
+                    >
+                      <div className="mt-2 w-1.5 h-1.5 rounded-full bg-[#e99b63] shrink-0" />
+                      <span>{req}</span>
+                    </li>
+                  ))}
+                </ul>
+              </EventSection>
+            )}
           </div>
 
           {/* RIGHT SIDEBAR */}
           <div className="lg:col-span-4">
             <div className="lg:sticky lg:top-12 space-y-6">
-              {/* Entry Details (hidden on mobile) */}
+              {/* Entry Details */}
               <div className="hidden md:block bg-white/[0.03] border border-white/10 rounded-[32px] p-8 shadow-2xl relative overflow-hidden">
                 <div className="relative z-10">
                   <h3 className="text-sm font-black mb-6 uppercase tracking-[0.2em] text-[#e99b63]">
@@ -545,7 +615,7 @@ export default function EventPage() {
               {/* Event Poster below Coordinators */}
               <div className="mt-6 rounded-[24px] overflow-hidden border border-white/10 shadow-lg">
                 <img
-                  src={event.poster}
+                  src={event.LeftPoster || event.poster}
                   alt="Event Poster"
                   className="w-full h-auto object-cover"
                 />

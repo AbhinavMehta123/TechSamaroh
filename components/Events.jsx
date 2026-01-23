@@ -82,6 +82,14 @@ const Events = ({ id = "events" }) => {
       color: "from-cyan-600",
       link: "/events/brand-bot",
     },   
+    {
+      id: "pixcel-pulse",
+      name: "Pixcel Pulse",
+      desc: "The guardians of the digital realm. We train in ethical hacking and cryptography to secure the future of the internet.",
+      img: "",
+      color: "from-cyan-600",
+      link: "/events/pixcel-pulse",
+    },   
   ];
 
   const fadeUpVariants = {
@@ -238,7 +246,7 @@ const Events = ({ id = "events" }) => {
                     "cursor-pointer absolute bottom-0 left-0 w-full py-4 bg-[#e99b63] text-black font-bold text-xs tracking-widest transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]",
                     activeCard === club.id
                       ? "translate-y-0"
-                      : "translate-y-full md:group-hover:translate-y-0" // 👈 click shows, hover still works
+                      : "translate-y-full md:group-hover:translate-y-0" 
                   )}
                 >
                   VIEW EVENT DETAILS
