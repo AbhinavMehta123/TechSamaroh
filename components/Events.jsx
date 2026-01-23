@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Dancing_Script } from "next/font/google";
 import { cn } from "@/lib/utils";
 import ElegantShape from "./elegantShape";
+import { UserCheck, Clock, MapPin, Users, CalendarClock, Wallet  } from "lucide-react";
 
 const dancingScript = Dancing_Script({
   subsets: ["latin"],
@@ -28,7 +29,13 @@ const Events = ({ id = "events" }) => {
     {
       id: "hack-a-thon-2026",
       name: "CODEX Build",
-      desc: "A community of developers dedicated to mastering algorithms, competitive programming, and open-source contribution.",
+      desc: "",
+      Eligibility: "",
+      time: "",
+      Venue: "",
+      Participation: "",
+      RegistrationDeadline: "",
+      fees:"",
       img: "/WebAssets/WhatsApp Image 2026-01-18 at 5.51.57 PM.jpeg",
       color: "from-blue-600",
       link: "/events/hack-a-thon-2026",
@@ -37,6 +44,12 @@ const Events = ({ id = "events" }) => {
       id: "Fire-bound",
       name: "Fire Bound",
       desc: "",
+      Eligibility: "",
+      time: "",
+      Venue: "",
+      Participation: "",
+      RegistrationDeadline: "",
+      fees:"",
       img: "",
       color: "from-red-600",
       link: "/events/hack-a-thon-2026",
@@ -44,7 +57,13 @@ const Events = ({ id = "events" }) => {
     {
       id: "cyber-tok",
       name: "Cyber TOK",
-      desc: "",
+      desc: "Think Fast. Create Smart. Solve Sharp.",
+      Eligibility: "Open to all departments (technical & non-technical)",
+      time: "TBA",
+      Venue: "ROOM NO. 402",
+      Participation: "2 members per team",
+      RegistrationDeadline: "TBA",
+      fees:"₹80",
       img: "/WebAssets/Cyber Knight logo.jpg",
       color: "from-red-600",
       link: "/events/cyber-tok",
@@ -53,7 +72,13 @@ const Events = ({ id = "events" }) => {
     {
       id: "shadow-trace",
       name: "Shadow Trace",
-      desc: "Digital Crime Scene Investigation (DCSI) is a laptop-based cyber forensics event where students act as digital investigators. A cybercrime has already happened, and participants do not hack or code. Instead, they analyze digital evidence such as access logs, emails, chat screenshots, file timestamps, and company policies provided through a secure drive link.",
+      desc: "Uncover the system behind the data",
+      Eligibility: "knowledge of technical analysis ",
+      time: "12:00- 1:30",
+      Venue: "305 at tips dwarka",
+      Participation: "3 members in each team ",
+      RegistrationDeadline: "TBA",
+      fees:"₹150",
       img: "",
       color: "from-purple-600",
       link: "/events/shadow-trace",
@@ -61,7 +86,13 @@ const Events = ({ id = "events" }) => {
     {
       id: "the-scholar-stage",
       name: "The Scholar’s Stage",
-      desc: "",
+      desc: "Presenting Perspectives, Defining Possibilities!",
+      Eligibility: "Open to all departments",
+      time: "TBA",
+      Venue: "Conference Room ",
+      Participation: "Maximum 2 members",
+      RegistrationDeadline: "TBA",
+      fees:"₹100",
       img: "",
       color: "from-pink-600",
       link: "/events/the-scholar-stage",
@@ -69,27 +100,45 @@ const Events = ({ id = "events" }) => {
     {
       id: "pich-perfect",
       name: "Pich Perfect",
-      desc: "",
+      desc: "Innovate. Pitch. Inspire.",
+      Eligibility: "Open to all departments",
+      time: "TBA",
+      Venue: "Room 204 (Tentative)",
+      Participation: "1 – 2 members",
+      RegistrationDeadline: "TBA",
+      fees:"TBA",
       img: "",
       color: "from-cyan-600",
       link: "/events/pich-perfect",
     },
-     {
+    {
       id: "brand-bot",
       name: "Brand Bot",
-      desc: "The guardians of the digital realm. We train in ethical hacking and cryptography to secure the future of the internet.",
+      desc: "Prompt the Future. Pitch the Vision.",
+      Eligibility: "Basic knowledge of AI tools",
+      time: "TBA",
+      Venue: " Room 407",
+      Participation: " Minimum 2 and Maximum 4 participants",
+      RegistrationDeadline: "18 February 2026",
+      fees:"TBA",
       img: "/WebAssets/researchclub.jpg",
       color: "from-cyan-600",
       link: "/events/brand-bot",
-    },   
+    },
     {
       id: "pixcel-pulse",
       name: "Pixcel Pulse",
-      desc: "The guardians of the digital realm. We train in ethical hacking and cryptography to secure the future of the internet.",
+      desc: "Freeze the Frame. Master the Edit.",
+      Eligibility: "Open to all registered Tech Samaaroh participants",
+      time: "60 Minutes",
+      Venue: "Room 407 (Campus Photo Hunt Area)",
+      Participation: "Team Event (Team of 2)",
+      RegistrationDeadline: "TBA",
+      fees:"₹60 per team",
       img: "",
       color: "from-cyan-600",
       link: "/events/pixcel-pulse",
-    },   
+    },
   ];
 
   const fadeUpVariants = {
@@ -236,6 +285,30 @@ const Events = ({ id = "events" }) => {
                 <p className="text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors">
                   {club.desc}
                 </p>
+                <p className="flex items-center gap-2 text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors mr-12">
+                  <UserCheck className="w-4 h-4 text-gray-400 shrink-0" />
+                  {club.Eligibility}
+                </p>
+                 <p className="flex items-center gap-2 text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors mr-12">
+                  <Clock className="w-4 h-4 text-gray-400 shrink-0" />
+                  {club.time}
+                </p>
+                   <p className="flex items-center gap-2 text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors mr-12">
+                  <MapPin className="w-4 h-4 text-gray-400 shrink-0" />
+                  {club.Venue}
+                </p>
+                <p className="flex items-center gap-2 text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors mr-12">
+                  <Users className="w-4 h-4 text-gray-400 shrink-0" />
+                  {club.Participation}
+                </p>
+                <p className="flex items-center gap-2 text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors mr-12">
+                  <CalendarClock className="w-4 h-4 text-gray-400 shrink-0" />
+                  {club.RegistrationDeadline}
+                </p>
+                <p className="flex items-center gap-2 text-gray-400 text-base leading-relaxed group-hover:text-gray-200 transition-colors mr-12">
+                  <Wallet className="w-4 h-4 text-gray-400 shrink-0" />
+                  {club.fees}
+                </p>
               </div>
 
               {/* Button */}
@@ -246,7 +319,7 @@ const Events = ({ id = "events" }) => {
                     "cursor-pointer absolute bottom-0 left-0 w-full py-4 bg-[#e99b63] text-black font-bold text-xs tracking-widest transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]",
                     activeCard === club.id
                       ? "translate-y-0"
-                      : "translate-y-full md:group-hover:translate-y-0" 
+                      : "translate-y-full md:group-hover:translate-y-0"
                   )}
                 >
                   VIEW EVENT DETAILS

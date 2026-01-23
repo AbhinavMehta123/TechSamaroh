@@ -114,7 +114,7 @@ const eventData = {
   "cyber-tok": {
     id: "Cyber-tok",
     name: "CyberTok - Crack it, Reel it, Win it ",
-    fees:"TBA",
+    fees:"₹80",
     deadline:"TBA",
     tagline: "Think Fast. Create Smart. Solve Sharp.",
     timing: "TBA",
@@ -266,7 +266,7 @@ const eventData = {
   "pixcel-pulse": {
     id: "pixcel-pulse",
     name: "Pixel Pulse",
-    fess:"₹60 per team",
+    fees:"₹60 per team",
     deadline:"TBA",
     tagline: "Freeze the Frame. Master the Edit.",
     timing: "February 20, 60 minutes",
