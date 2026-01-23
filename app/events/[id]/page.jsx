@@ -79,6 +79,8 @@ const eventData = {
   "shadow-trace": {
     id: "Shadow-trace",
     name: "Shadow Trace",
+    fees: "₹ 150 Per Team",
+    deadline: "TBA",
     tagline: "Uncover the system behind the data",
     timing: "February 20 12:00-1:30",
     location: "305 at Trinity Dwarka",
@@ -112,6 +114,8 @@ const eventData = {
   "cyber-tok": {
     id: "Cyber-tok",
     name: "CyberTok - Crack it, Reel it, Win it ",
+    fees:"TBA",
+    deadline:"TBA",
     tagline: "Think Fast. Create Smart. Solve Sharp.",
     timing: "TBA",
     location:"ROOM NO. 402",
@@ -149,6 +153,8 @@ const eventData = {
   "the-scholar-stage": {
     id: "the-scholar-stage",
     name: "THE SCHOLAR’S STAGE",
+    fees: "₹100",
+    deadline: "TBA",
     tagline: "Presenting Perspectives, Defining Possibilities!",
     timing: "TBA",
     location: "Conference Room",
@@ -180,11 +186,13 @@ const eventData = {
       { name: "Yuvika", phone: "+91 78385 30752" },
     ],
     poster:
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop", 
   },
   "pich-perfect": {
     id: "pich-perfect",
     name: "PITCH PERFECT",
+    fees:"TBA",
+    deadline:"TBA",
     tagline: "Innovate. Pitch. Inspire.",
     timing: "TBA",
     location: "Room 204",
@@ -222,6 +230,8 @@ const eventData = {
   "brand-bot": {
     id: "brand-bot",
     name: "Brand Bot",
+    fees:"TBA",
+    deadline:"18 February 2026",
     tagline: "Prompt the Future. Pitch the Vision.",
     timing: "February 20, TBA",
     location: "Room 407 ",
@@ -256,6 +266,8 @@ const eventData = {
   "pixcel-pulse": {
     id: "pixcel-pulse",
     name: "Pixel Pulse",
+    fess:"₹60 per team",
+    deadline:"TBA",
     tagline: "Freeze the Frame. Master the Edit.",
     timing: "February 20, 60 minutes",
     location: "Room 407 (Campus Photo Hunt Area)",
@@ -574,17 +586,17 @@ export default function EventPage() {
               {/* Entry Details */}
               <div className="hidden md:block bg-white/[0.03] border border-white/10 rounded-[32px] p-8 shadow-2xl relative overflow-hidden">
                 <div className="relative z-10">
-                  <h3 className="text-sm font-black mb-6 uppercase tracking-[0.2em] text-[#e99b63]">
+                  <h3 className="text-center text-sm font-black mb-6 uppercase tracking-[0.2em] text-[#e99b63]">
                     Entry Details
                   </h3>
                   <div className="space-y-4 mb-8 text-[11px] uppercase tracking-widest font-bold">
                     <div className="flex justify-between pb-4 border-b border-white/5">
-                      <span className="text-gray-100">Registration</span>
-                      <span className="text-green-500">Live</span>
+                      <span className="text-gray-100">Registration Fees</span>
+                      <span className="text-white">{event.fees}</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-gray-100">Access</span>
-                      <span className="text-white">Public</span>
+                      <span className="text-gray-100">Registration Deadline</span>
+                      <span className="text-white">{event.deadline}</span>
                     </div>
                   </div>
                   <button className="cursor-pointer w-full py-4 rounded-xl bg-[#e99b63] text-black font-black text-[10px] tracking-[0.2em] hover:bg-white transition-all shadow-lg shadow-[#e99b63]/10">
